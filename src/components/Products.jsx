@@ -30,7 +30,7 @@ function Products() {
                 alt={item?.title}
                 className="w-full h-60 object-cover rounded-lg cursor-pointer"
               />
-              <p className="text-center text-lg font-semibold mt-3">
+              <p className="text-center text-black text-lg font-semibold mt-3">
                 {item?.title}
               </p>
             </li>

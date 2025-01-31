@@ -6,7 +6,10 @@ const Vutton = () => {
 
   return (
     <div>
-      <button onClick={increaseCount}> Increase</button>
+      <button onClick={increaseCount} className="m-2">
+        {" "}
+        Increase
+      </button>
       <button onClick={decreaseCount}>Decrease</button>
     </div>
   );
